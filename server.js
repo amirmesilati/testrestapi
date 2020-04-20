@@ -5,13 +5,13 @@ var app = express();
 
 app.get('/', function(req, res) {
   res.send({
-    "Output": "Hello Get World!"
+    "Output": "Hello Get World Develop!"
   });
 });
 
 app.post('/', function(req, res) {
   res.send({
-    "Output": "Hello Post World!"
+    "Output": "Hello Post World Develop!"
   });
 });
 
